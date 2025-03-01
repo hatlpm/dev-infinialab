@@ -1,0 +1,26 @@
+Editar código de VBA con Visual Studio Code usando xlwings
+
+---- Autor: xlWings
+---- Web: https://docs.xlwings.org/en/stable/installation.html
+---- YouTube: https://www.youtube.com/@xlwings9689
+---- Video de referencia: https://www.youtube.com/watch?v=xoO-Fx0fTpM&ab_channel=xlwings
+
+
+Ajustes iniciales:
+1. Instalar python -> https://www.python.org/downloads/
+2. Instalar VS Code -> https://code.visualstudio.com/download
+3. Instalar xlwings -> pip install xlwings
+4. En el libro de Excel, ir a:
+Archivo -> Opciones -> Centro de confianza -> Ajustes del centro de confianza -> Ajustes de Macros -> Confiar acceso al modelo de objetos del proyecto de VBA
+
+Comandos:
+1. xlwings vba edit -> Ejecutar comando dentro de la ruta del archivo .xlsm
+2. xlwings vba edit -f nombre_archivo.xls
+3. Salir con Ctrl + c
+
+Consejos y ventajas útiles de Visual Studio Code:
+1. Edición de múltiples líneas (Ctrl + d)
+2. Comentar múltiples líneas (Ctrl + K ) y luego (Ctrl + C)
+3. Duplicar líneas (Shift + Alt + ↓)
+3. Uso de Extensiones que faciliten la edición del código (Ej: XVBA, VBA, etc) 
+4. Modo oscuro  
